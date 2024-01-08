@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe In JavaScript</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+    <h1>Tic Toe Game</h1>
+    <div class="msg-container hide" id="msgContainer">
+        <p id="msg"></p>
+    </div>
+    <button class="btn" id="newGame">Start New Game</button>
+    <div class="container">
+        <div class="game">
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+            <button class="boxes"></button>
+        </div>
+    </div>
+    <button class="btn" id="resetGame">Reset Game</button>
     <script src="script.js"></script>
 </body>
+
 </html>
